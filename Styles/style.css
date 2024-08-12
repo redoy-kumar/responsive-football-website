@@ -145,3 +145,25 @@ a{
 }
 
 /* Footer Section */
+.footer-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer-container img{
+    width: 483.87px;
+}
+
+.social-container{
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-container img{
+    width: 32px;
+    height: 32px;
+}

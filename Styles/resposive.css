@@ -59,4 +59,26 @@
         width: 100%;
     }
 
+    .footer-container{
+        max-width: 332px;
+    }
+
+    .footer-container img{
+        width: 267px;
+        margin-top: 50px;
+    }
+
+    .social-container{
+        max-width: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content:space-around;
+        margin-top: -10px;
+    }
+
+    .social-container img{
+        width: 32px;
+        height: 35px;
+    }
+
 }
