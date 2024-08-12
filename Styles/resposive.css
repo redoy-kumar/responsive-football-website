@@ -45,4 +45,18 @@
         margin-top: 50px;
     }
 
+    .highlights-container{
+        max-width: 332px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .highlights-left-box{
+        width: 100%;
+    }
+
+    .highlights-right-box{
+        width: 100%;
+    }
+
 }
