@@ -1,0 +1,48 @@
+@media screen and (max-width:576px){
+
+    /* Shared Style */
+    .btn-primary{
+        padding: 7.47px 17.93px 7.47px 17.93px;
+    }
+
+
+    /* Navbar Section */
+    .nav-container{
+        max-width: 332px;
+        margin: 0 auto;
+    }
+    .navbar-links{
+        display: none;
+        color: white;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+
+    /* Banner container */
+    .banner-container{
+        max-width: 332px;
+        margin: 0 auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .banner-left-box h1{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .banner-right-box, .banner-right-box{
+        width: 100%;
+    }
+
+    .player-grid-container{
+        grid-template-columns: repeat(1,1fr);
+        max-width: 332px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+}

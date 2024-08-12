@@ -12,10 +12,12 @@ body{
     color: white;
     border: none;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 4px;
-    padding: 5px 24px 5px 24px;
+    width: 123px;
+    height: 44px;
+    cursor: pointer;
 }
 
 /* Navbar section */
@@ -25,18 +27,25 @@ body{
     background: rgb(10, 2, 128);
 }
 
+.hamburger-menu{
+    display: none;
+}
+
 .nav-container{
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 ul{
     list-style-type: none;
     display: flex;
     gap: 36px;
+    padding-left: 0;
 }
 
 a{
@@ -49,4 +58,57 @@ a{
     height: 17px;
 }
 
+/* banner section */
+.banner-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+}
 
+.banner-left-box h1{
+    font-size: 3.7rem;
+    margin-bottom: 10px;
+}
+
+.banner-left-box{
+    width: 50%;
+}
+
+.banner-right-box{
+    width: 50%;
+}
+
+.banner-right-box img{
+    width: 100%;
+}
+
+/* Player Grid Section */
+.player-grid-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 100px;
+}
+
+.player-outter-box{
+    max-width: 330px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    margin-bottom: 42px;
+}
+
+.player-inner-box{
+    max-width: 300px;
+    margin: 15px;
+}
+.player-inner-box img{
+    width: 100%;
+}
+
+.player-inner-box p{
+    font-size: 1rem;
+    color: rgb(108, 108, 108);
+    text-align: justify;
+}
